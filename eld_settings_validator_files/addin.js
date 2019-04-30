@@ -225,7 +225,7 @@ geotab.addin.eldSettingsValidator = function(api, state) {
 							statusIcon.style.color = "green";
 						}
                         statusIcon.style.fontSize = "25px";
-                        div1.append(statusIcon);
+                        div1.appendChild(statusIcon);
                     }
                     div2.appendChild(a);
                 }
