@@ -1,0 +1,210 @@
+.geotabButtonIcons{
+  font-family:"fontello";
+  font-style:normal;
+  font-weight:normal;
+  cursor:pointer;
+  display:inline-block;
+  text-decoration:none;
+  width:17px;
+  top:0.65em;
+  text-align:center;
+  vertical-align:middle;
+  position:absolute;
+  overflow:hidden;
+  font-variant:normal;
+  text-transform:none
+}
+.geotabButtonIcons.inline {
+  position:relative;
+  top:-0.1em;
+  left:-0.1em;
+}
+
+.geotabButtonIcons.plusIcon:before { content:'\e802';}
+.geotabButtonIcons.minusIcon:before {content:'\e829';}
+.geotabButtonIcons.arrowUp:before {content:'\e80c'; font-size:1.3em;}
+.geotabButtonIcons.arrowRight:before{content:'\e80e'; font-size:1.3em;}
+.geotabButtonIcons.arrowDown:before{content:'\e80b'; font-size:1.3em;}
+.geotabButtonIcons.arrowLeft:before{content:'\e80d'; font-size:1.3em;}
+.geotabButtonIcons.starIcon:before{content:'\e821';}
+.geotabButtonIcons.cog:before{content:'\e825';}
+.geotabButtonIcons.attention:before{content:'\e823';}
+.geotabButtonIcons.mail:before{content:'\e81e';}
+.geotabButtonIcons.pencilIcon:before{content:'\e81c';}
+.geotabButtonIcons.checkIcon:before{content:'\e82c';}
+.geotabButtonIcons.closeCross:before{content:'\e817';}
+.geotabButtonIcons.questionMark:before{content:'\e81d';}
+.geotabButtonIcons.redoIcon:before{content:'\e805';}
+.geotabButtonIcons.ccw:before{content:'\e814';}
+.geotabButtonIcons.cw:before{content:'\e813';}
+.geotabButtonIcons.sideResizeIcon:before{content:'\e803';}
+.geotabButtonIcons.houseIcon:before{content:'\e82e';}
+.geotabButtonIcons.download:before{content:'\e82b';}
+.geotabButtonIcons.info-circled:before{content:'\e820';}
+.geotabButtonIcons.trash:before{content:'\e835';}
+.geotabButtonIcons.resize-full:before{content:'\e827';}
+.geotabButtonIcons.resize-small:before{content:'\e828';}
+.geotabButtonIcons.resizeNormal:before{content:'\e837';}
+.geotabButtonIcons.down-open:before{content:'\e807';}
+.geotabButtonIcons.left-open:before{content:'\e808';}
+.geotabButtonIcons.right-open:before{content:'\e809';}
+.geotabButtonIcons.up-open:before{content:'\e80a';}
+.geotabButtonIcons.arrows-cw:before{content:'\e815';}
+.geotabButtonIcons.measureTimeIcon:before{content:'\e82f';}
+.geotabButtonIcons.move:before{content:'\e822';}
+.geotabButtonIcons.externalLink:before{content:'\e81a'; font-size:10px;}
+.geotabButtonIcons.certificateIcon:before{content:'\e833';}
+.geotabButtonIcons.paperScript:before{content:'\e81b';}
+.geotabButtonIcons.desktopIcon:before{content:'\e832';}
+.geotabButtonIcons.undoIcon:before{content:'\e804';}
+.geotabButtonIcons.folderOpenEmpty:before{content:'\e834';}
+.geotabButtonIcons.reply-all:before{content:'\e806';}
+.geotabButtonIcons.down:before{content:'\e81f';}
+.geotabButtonIcons.graphIcon:before{content:'\e826'; line-height:inherit;}
+.geotabButtonIcons.globeIcon:before{content:'\e831';}
+.geotabButtonIcons.upload:before{content:'\e818';}
+.geotabButtonIcons.soundIcon:before{content:'\e830';}
+.geotabButtonIcons.searchGlass:before{content:'\e82d';}
+.geotabButtonIcons.clockIcon:before{content:'\e82a';}
+.geotabButtonIcons.fuelIcon:before{content:'\e800';}
+.geotabButtonIcons.wrench:before{content:'\e801';}
+.geotabButtonIcons.folder-empty:before{content:'\e80f';}
+.geotabButtonIcons.mapIcon:before{content:'\e810';}
+.geotabButtonIcons.userIcon:before{content:'\e811';}
+.geotabButtonIcons.sortNameDown:before{content:'\e812'; font-size:1em;}
+.geotabButtonIcons.sortNameUp:before{content:'\e816'; font-size:1em;}
+.geotabButtonIcons.truck:before{content:'\e819';}
+.geotabButtonIcons.money:before{content:'\e824';}
+.geotabButtonIcons.calendar:before{content:'\e836';}
+.geotabButtonIcons.road:before{content:'\e838';}
+.geotabButtonIcons.location-1:before{content:'\e839';}
+.geotabButtonIcons.gauge:before{content:'\e83a';}
+.geotabButtonIcons.paperPlane:before{content:'\f1d8';}
+.geotabButtonIcons.blankSquare:before{content:'\f0c8';}
+.geotabButtonIcons.checkSquare:before{content:'\f14a';}
+.geotabButtonIcons.search:before{content:'\e83c';}
+.geotabButtonIcons.graphIcon{line-height:inherit;}
+.geotabButtonIcons.list-bullet:before{content:'\e83b'; font-size:1.5em; top:0.35em; left:0.4em; }
+  
+@font-face {
+	font-family:'fontello';
+	src: url('./fonts/fontello.woff2#') format('woff2'),url('./fonts/fontello.woff#') format('woff'),url('./fonts/fontello.ttf#') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.geotabOptionsMenu .periodPicker_period>.rightOptionsMenuLabel, .geotabOptionsMenu .geotabOptionsMenuFieldset>.rightOptionsMenuLabel, .geotabOptionsMenu .periodPicker_period>.periodPicker_periodLegend, .geotabOptionsMenu .geotabOptionsMenuFieldset>.periodPicker_periodLegend {font-size: 0.9em;
+	color: #25477b;
+	text-transform: uppercase;
+}
+
+.popupWindow fieldset>legend {
+	font-weight: normal;
+	padding: 3px 0;
+	color: #25477b;
+	text-transform: uppercase;
+}
+
+legend {
+	display: block;
+	-webkit-padding-start: 2px;
+	-webkit-padding-end: 2px;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.close {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  color: #cccccc;
+  cursor: pointer;
+}
+
+.close:hover {
+    color: inherit;
+}
+
+.btn {
+  border-radius: 5px;
+  border: solid 1px #000000;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 40%;
+}
+#success{
+  background:#03a679;
+  color:#f0f0f0;  
+}
+
+.notify{  
+  position:absolute;
+  top:0px;
+  width:100%;
+  height:0;  
+  box-sizing:border-box;
+  color:white;  
+  text-align:center;
+  background:rgba(0,0,0,.6);
+  overflow:hidden;
+  box-sizing:border-box;
+  transition:height .2s;
+}
+
+#notifyType:before{
+  display:block;
+  margin-top:15px; 
+  
+}
+
+#shs-switcherButton-container {
+	margin: 0 auto;
+	padding: 0.5em;
+	text-align: center;
+}
+
+#shs-switcherButton {
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0.5em;
+	color: #fff;
+
+	background-size: 200% 100%;
+	-webkit-transition: background-position 3s;
+	-moz-transition: background-position 3s;
+	transition: background-position 3s ease-in;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    /*color: #25477b;*/
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #c5dbec;
+	top:2.5px;
+    border-bottom-color: transparent;
+}
+.tabsHeader>.tabElement: activeTab {
+	color: #25477b;
+	
+}
+.tabsHeader>.tabElement { 
+	padding: 8px 12px;
+	color: #999;
+}
+.informationButton {
+	height: 14px;
+}
