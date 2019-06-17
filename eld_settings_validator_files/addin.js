@@ -82,10 +82,10 @@ geotab.addin.eldSettingsValidator = function(api, state) {
                     var td = document.createElement("td");
                     var txt = document.createTextNode("There are no vehicles with ELD settings issues.");
 
-                    td.append(document.createElement("br"));
-                    td.append(txt);
-                    tr.append(td);
-                    table2.append(tr);
+                    td.appendChild(document.createElement("br"));
+                    td.appendChild(txt);
+                    tr.appendChild(td);
+                    table2.appendChild(tr);
                 }
                 
                 for (row = 0; row < vehicleList.length; row++) {
@@ -100,7 +100,7 @@ geotab.addin.eldSettingsValidator = function(api, state) {
                         div1 = document.createElement('div');
                         div1.className = "g-name";
                         
-                        a.append(div1);
+                        a.appendChild(div1);
                         
                         if (cell === 0){
                             div1.textContent = vehicleList[row][cell];
@@ -117,9 +117,9 @@ geotab.addin.eldSettingsValidator = function(api, state) {
 								statusIcon.style.color = "green";
 							}
                             statusIcon.style.fontSize = "25px";
-                            div1.append(statusIcon);
+                            div1.appendChild(statusIcon);
                         }
-                        div2.append(a);
+                        div2.appendChild(a);
                     }
                     var createVehicleInfoClickHandler = function(arg) {
                         return function() {
@@ -133,7 +133,7 @@ geotab.addin.eldSettingsValidator = function(api, state) {
 					var use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
 					use.setAttributeNS('http://www.w3.org/1999/xlink', 'href', '#info-circ');
 					svg.setAttribute('class','svgIcon geotabButtonIcons informationButton');
-					svg.append(use);
+					svg.appendChild(use);
 					
                     var vehicleInfoButton = document.createElement('button');
                     vehicleInfoButton.className = "geotabButton emptyButton geotabButton-empty infoButton";
@@ -142,11 +142,11 @@ geotab.addin.eldSettingsValidator = function(api, state) {
                     var div3 = document.createElement('div');
                     div3.className = "g-ctrl";
                     
-                    vehicleInfoButton.append(svg);
-                    div3.append(vehicleInfoButton);
-                    div2.append(div3);
-                    td.append(div2);
-                    tr.append(td);
+                    vehicleInfoButton.appendChild(svg);
+                    div3.appendChild(vehicleInfoButton);
+                    div2.appendChild(div3);
+                    td.appendChild(div2);
+                    tr.appendChild(td);
                 }
                 refresh.disabled = false;
             }, function(error) {console.log("error");
@@ -187,10 +187,10 @@ geotab.addin.eldSettingsValidator = function(api, state) {
                 var td = document.createElement("td");
                 var txt = document.createTextNode("There are no users with ELD settings issues.");
 
-                td.append(document.createElement("br"));
-                td.append(txt);
-                tr.append(td);
-                table1.append(tr);
+                td.appendChild(document.createElement("br"));
+                td.appendChild(txt);
+                tr.appendChild(td);
+                table1.appendChild(tr);
             }
             
             for (row = 0; row < userList.length; row++) {
@@ -208,7 +208,7 @@ geotab.addin.eldSettingsValidator = function(api, state) {
                     div1 = document.createElement('div');
                     div1.className = "g-name";
                     
-                    a.append(div1);
+                    a.appendChild(div1);
 
                     if (cell === 0){
                         div1.textContent = userList[row][cell];
@@ -225,9 +225,9 @@ geotab.addin.eldSettingsValidator = function(api, state) {
 							statusIcon.style.color = "green";
 						}
                         statusIcon.style.fontSize = "25px";
-                        div1.append(statusIcon);
+                        div1.appendChild(statusIcon);
                     }
-                    div2.append(a);
+                    div2.appendChild(a);
                 }
                 
                 var createUserInfoClickHandler = function(arg) {
@@ -243,7 +243,7 @@ geotab.addin.eldSettingsValidator = function(api, state) {
 				var use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
 				use.setAttributeNS('http://www.w3.org/1999/xlink', 'href', '#info-circ');
 				svg.setAttribute('class','svgIcon geotabButtonIcons informationButton');
-				svg.append(use);
+				svg.appendChild(use);
                 
                 var userInfoButton = document.createElement('button');
                 userInfoButton.className = "geotabButton emptyButton geotabButton-empty infoButton";
@@ -252,12 +252,12 @@ geotab.addin.eldSettingsValidator = function(api, state) {
                 var div3 = document.createElement('div');
                 div3.className = "g-ctrl";
                 
-                userInfoButton.append(svg);
-                div3.append(userInfoButton);
-                div2.append(div3);
+                userInfoButton.appendChild(svg);
+                div3.appendChild(userInfoButton);
+                div2.appendChild(div3);
                 
-                td.append(div2);
-                tr.append(td);
+                td.appendChild(div2);
+                tr.appendChild(td);
             }
             
         }, function(e) {
@@ -399,7 +399,7 @@ geotab.addin.eldSettingsValidator = function(api, state) {
             link.download = fileName + ".csv";
             
             //this part will append the anchor tag and remove it after automatic click
-            document.body.append(link);
+            document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
         };
@@ -507,7 +507,7 @@ geotab.addin.eldSettingsValidator = function(api, state) {
                     link.download = fileName + ".csv";
                     
                     //this part will append the anchor tag and remove it after automatic click
-                    document.body.append(link);
+                    document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
                 };
