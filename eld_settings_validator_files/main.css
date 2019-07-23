@@ -150,23 +150,6 @@ button:focus {
   
 }
 
-#shs-switcherButton-container {
-	margin: 0 auto;
-	padding: 0.5em;
-	text-align: center;
-}
-
-#shs-switcherButton {
-	font-size: 1em;
-	font-weight: bold;
-	padding: 0.5em;
-	color: #fff;
-
-	background-size: 200% 100%;
-	-webkit-transition: background-position 3s;
-	-moz-transition: background-position 3s;
-	transition: background-position 3s ease-in;
-}
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     /*color: #25477b;*/
     cursor: default;
@@ -175,6 +158,11 @@ button:focus {
 	top:2.5px;
     border-bottom-color: transparent;
 }
+
+.tabsHeader>ul {
+	list-style: none;
+}
+
 .tabsHeader>.tabElement: activeTab {
 	color: #25477b;
 	
