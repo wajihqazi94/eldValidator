@@ -159,7 +159,7 @@ button:focus {
     border-bottom-color: transparent;
 }
 
-.tabsHeader>ul {
+.tabsHeader>li {
 	list-style: none;
 }
 
